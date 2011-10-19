@@ -15,20 +15,14 @@ Optimistic user has encrypted a password with sha512 hash but unfortunately it
 is one of the most common ones. The digest of the password is
 
 `8a7bf780e30b6105a4869220dfe1589753b43705c1a6c695fefbb7dc6`
-
 `fac0506395a9b7d30abfd7d11dc50ea541005c0bfc4316c4b609acd76`
-
 `b4e007fd5c4d01`
+
 It would be troublesome to try to solve the password with a bruteforce method -
-
 well practically impossible. But with a bit of luck it might be one of the most
-
 popular ones, hereby it is easier to count a message digest for each
-
 password that is found from the TOP 500 list. Compare is done against the
-
 message digests and therefore a clear text password can be gained without heavy
-
 calculations. In the end, following trick reveals the password:
 
 	grep -n 8a7bf780...<hash continues>... pass.txt
