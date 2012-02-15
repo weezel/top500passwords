@@ -11,8 +11,8 @@ Quite simple, clone the repository and run `python checktop500passwords.py
 password_digest > pass.txt`.
 
 ### Example
-Optimistic user has encrypted a password with sha512 hash but unfortunately it
-is one of the most common ones. The digest of the password is
+Optimistic user has encrypted a password with sha512 hash but unfortunately the
+password is one of the most common ones. The digest of the password is
 
 `8a7bf780e30b6105a4869220dfe1589753b43705c1a6c695fefbb7dc6`
 `fac0506395a9b7d30abfd7d11dc50ea541005c0bfc4316c4b609acd76`
