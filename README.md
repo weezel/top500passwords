@@ -1,5 +1,5 @@
 ## Compare against TOP 500 passwords
-This is a small Python hack up to generate message digest from the passwords
+This is a small Python hack up to generate message digests from the passwords
 found from the TOP 500 passwords at
 [whatsmypass.com] (http://www.whatsmypass.com/the-top-500-worst-passwords-of-all-time).
 
@@ -9,6 +9,8 @@ found from the TOP 500 passwords at
 ## Usage
 Quite simple, clone the repository and run `python checktop500passwords.py
 password_digest > pass.txt`.
+
+NOTE: This won't likely work against the salted passwords!
 
 ### Example
 Optimistic user has encrypted a password with sha512 hash but unfortunately the
