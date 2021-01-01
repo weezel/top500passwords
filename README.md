@@ -4,13 +4,13 @@ found from the TOP 500 passwords at
 [whatsmypass.com] (http://www.whatsmypass.com/the-top-500-worst-passwords-of-all-time).
 
 ## Requirements
-* Python 2.x
+* Python 3.x
 
 ## Usage
 Quite simple, clone the repository and run `python checktop500passwords.py
 password_digest > pass.txt`.
 
-NOTE: This won't likely work against the salted passwords!
+**NOTE**: This won't work against the salted passwords!
 
 ### Example
 Optimistic user has encrypted a password with sha512 hash but unfortunately the
